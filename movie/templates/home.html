@@ -5,6 +5,16 @@
 
 <div class="Container">
     <!--<h1>Welcome to Home Page</h1>-->
-    <h1 style="display: inline;">Welcome to Home Page,  <h1 style = "color: green; display: inline;"> {{name}} </h1></h1>
-    <h2>This is the full home page</h2>
+    <!--<h1 style="display: inline;">Welcome to Home Page,  <h1 style = "color: green; display: inline;"> {{name}} </h1></h1>
+    <h2>This is the full home page</h2> -->
+
+    <form>
+        <div class="mb-3" style="padding:15px; padding-top: 60px;">
+          <label for="searchMovie" class="form-label">Search for Movie: </label>
+          <input type="text" class="form-control" name="searchMovie">
+          <button type="submit" class="btn btn-primary" style="margin-top: 10px;">Search</button>
+        </div>
+    </form>
+    <p>Searching for {{searchTerm}}</p>
+
 </div>
