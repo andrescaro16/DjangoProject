@@ -10,6 +10,10 @@
 </head>
 
 <body>
+
+    {% extends 'base.html' %}
+    {% block content %}
+
     <div class="container mt-5">
         <h1 class="mb-3">Upcoming ...</h1>
         <div id="movieCarousel" class="carousel slide mb-3" data-ride="carousel">
@@ -79,5 +83,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 
+    {% endblock content %}
 
 </body>
